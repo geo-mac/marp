@@ -48,7 +48,7 @@ Prominent repository metadata applications profiles include:
 - OpenAIRE (software)
 - UKETD 2017 (EThOS)
 - Scholarly Works Applications Profile (SWAP) - deceased, but more on that later!
-- Rioxx v2.0
+- Rioxx v2.0, more on this too!
  
 ---
 # Title page ad hoc fix
