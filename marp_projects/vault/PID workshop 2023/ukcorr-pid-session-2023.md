@@ -41,14 +41,26 @@ text
 - PIDs usually underpinned by some form of registry which registers new PIDs and resolves them (and contains metadata!) (e.g. DataCite, CrossRef)
 
 ---
+# Why have PIDs?
+- PID = *persistent identification* (Doh!) :-)
+- Maintenance of the scholarly record - citability, verification, reproducibility, replicability
+- 'Reference rot' / 'link rot'
+- Unique identify entities on the web
+---
 # The 'soft' bit: things to remember about PIDs
 - Technical issues exist *but* persistent identifiers really a 'soft' issue because...
 
 PIDs only persistent:
-- while the PID registration service commits to resolving them, and;
-- while the organization / publisher commits to updating the registration service (registry)
+- while the PID registration service *commits* to resolving them, and;
+- while the organization / publisher *commits* to updating the registration service (registry)
 
 ---
+# Commitment ...
+Using Strathprints as the case study (based on EPrints)
+But much of what will be stated applies beyond....
+
+---
+
 # Strathprints DOI journey...
 Using Strathprints as the case study (based on EPrints)
 But much of what will be stated applies beyond....
