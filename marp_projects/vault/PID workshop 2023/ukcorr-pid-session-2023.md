@@ -163,6 +163,8 @@ or discretionary minting?
 Version 
 Agustina and Alexia to say more, inc. DOI versioning.
 
+Issues of versioning, ensuring richest data sent to the DataCite registry means we prefer to await as much metadata as possible prior to minting 
+
 ---
 ---
 # Minting, but not as we know it, Jim...
