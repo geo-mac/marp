@@ -113,12 +113,22 @@ Membership used for:
 - Example: [https://doi.org/10.17868/strath.00085235](https://doi.org/10.17868/strath.00085235)
 - And to the [big registry](https://commons.datacite.org/doi.org/10.17868/strath.00085235) in the sky....
 ---
-DataCiteDoi integration with EPrints
+# DataCiteDoi integration with EPrints
 
+Using 3.4+: https://github.com/eprintsug/DataCiteDoi
+Using 3.3+: https://bazaar.eprints.org/1100/
+---
+# DataCoteDoi Configuration
+Relatively simple congfiguration, with basic functioning out-of-the-box
+- Define which content types receive DOIs
+- Define which database field to use for the DOI
+- Define the appearance of your DOI
+- Define some essential metadata elements, inc. how content types from EPrints scheme map to DataCite schema
+---
+image screen 3
 
-https://github.com/eprintsug/DataCiteDoi
-
-https://bazaar.eprints.org/1100/
+---
+image screen 4
 
 ---
 # Example... walk the walk :smile:
@@ -126,7 +136,7 @@ https://bazaar.eprints.org/1100/
 
 Deposited here: 
 
-Let's mint now!
+Let's mint now! :crossed_fingers:
 
 ---
 # Things to ponder...
