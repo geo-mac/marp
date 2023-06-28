@@ -17,6 +17,8 @@ Agustina Martinez-Garcia (University of Cambridge)
 Alexia Sutton (University of Cambridge)
 George Macgregor (University of Strathclyde)
 
+![width:150px](ukcorr_logo2.png)
+
 
 ![width:150px](by-sa.png)
 
@@ -27,8 +29,8 @@ George Macgregor (University of Strathclyde)
 - *Some technical things; some soft things*
 - *Some adjacent concepts...*
 
-2. Perspectives from Strathclyde - [Strathprints](https://strathprints.strath.ac.uk)
-3. Perspectives fro Cambridge - [Apollo](https://www.repository.cam.ac.uk/)
+2. Perspectives from Strathclyde - [Strathprints](https://strathprints.strath.ac.uk) (EPrints & Pure)
+3. Perspectives from Cambridge - [Apollo](https://www.repository.cam.ac.uk/) (DSpace & Elements)
 - *Different systems and different journeys, but useful overlap between Cambridge & Strathclyde!* :-)
 4. Questions / discussion
 
@@ -44,18 +46,18 @@ https://purl.org/g3om4c
 
 ---
 # The 'technical' bit: what are PIDs?
-## PID = *persistent identifier* (Doh!) :smile:
+## PID = *persistent identifier*  :smile:
 - PIDs come in many flavours, e.g. DOI, ORCID, RAiD, ROR, etc. -- *and beyond!*
-- Enables long-term identification but also 'actionability' because they are formed as URIs
+- Enables long-term identification but also 'actionability' because they are (*generally*) formed as URIs
 - PIDs usually underpinned by some form of registry which registers new PIDs and resolves them (and contains metadata!) (e.g. DataCite, CrossRef)
 
 ---
 # Why have PIDs?
-## PID = *persistent identification* (Doh!) :wink:
--  Provides unique and persistent reference to an entity normally accessible over the Internet
+## PID = *persistent identification* :wink:
+-  Provides unique and persistent reference to an *entity* normally accessible over the Internet
 - Maintenance of the scholarly record - citability, verification, reproducibility, replicability
 - 'Reference rot' / 'link rot' - e.g [Klein, Van de Sompel et al.](https://scholar.google.com/citations?user=nMRDlR8AAAAJ&hl)
-- Unique identify entities on the web; discovery these entities -- happy times
+- Uniquely identify entities on the web; enables discovery these entities -- happy times!
 - *Encode PIDs within metadata to link and grow the utility of data*
 
 ---
@@ -87,7 +89,7 @@ PIDs only persistent:
 # Strathprints DOI journey...
 ## Using Strathprints as the case study (based on EPrints) 
 Strathprints connected to Current Research Information System (CRIS) - Pure
-- [Repository and CRIS interoperability issues...](https://strathprints.strath.ac.uk/68240/)
+- [Repository and CRIS interoperability issues...](https://strathprints.strath.ac.uk/68240/) to be overcome
 But much of what will be stated applies beyond EPrints and Pure....
 
 ---
@@ -115,20 +117,21 @@ Membership used for:
 ---
 # DataCiteDoi integration with EPrints
 
-Using 3.4+: https://github.com/eprintsug/DataCiteDoi
+Using 3.4+: https://github.com/eprintsug/DataCiteDoiUsing 
 Using 3.3+: https://bazaar.eprints.org/1100/
----
-# DataCoteDoi Configuration
-Relatively simple congfiguration, with basic functioning out-of-the-box
-- Define which content types receive DOIs
-- Define which database field to use for the DOI
-- Define the appearance of your DOI
-- Define some essential metadata elements, inc. how content types from EPrints scheme map to DataCite schema
----
-image screen 3
 
 ---
-image screen 4
+# DataCiteDoi Configuration
+Relatively simple configuration, with basic functioning out-of-the-box
+- Define which content types to receive DOIs
+- Define which database field to use for local DOIs
+- Define the appearance of your DOIs (looks are everything! :wink: )
+- Define some essential metadata elements, inc. how content types from EPrints schema map to DataCite schema
+---
+![width:700px](strathprints-screen-3.jpg)
+
+---
+![width:900px](strathprints-screen-4.jpg)
 
 ---
 # Example... walk the walk :smile:
@@ -139,7 +142,7 @@ Deposited here:
 Let's mint now! :crossed_fingers:
 
 ---
-# Things to ponder...
+# Things to ponder...when to mint?
 
 Auto minting?
 - [ZORA](https://www.zora.uzh.ch/) - Zurich Open Repository Archive (University of Zurich)
@@ -156,9 +159,7 @@ or discretionary minting?
 - Manually initiated by repository team
 - e.g. for RRS/UKRI compliance, overlay journal publication, grey literature, etc.
 ---
-![width:600px](strathprints-screen-2.png)
----
-# When to mint a DOI?
+# AAMs, versioning, & other animals
 
 Version 
 Agustina and Alexia to say more, inc. DOI versioning.
@@ -216,3 +217,4 @@ make sure to leave an empty line below the `<br/>` tag
 
 - use `<!-- _class: tinytext -->` to make some text tiny
 - might be useful for References
+
