@@ -127,6 +127,10 @@ Relatively simple configuration, with basic functioning out-of-the-box
 - Define which database field to use for local DOIs
 - Define the appearance of your DOIs (looks are everything! :wink: )
 - Define some essential metadata elements, inc. how content types from EPrints schema map to DataCite schema
+
+From configuration to *customization...*
+- *Customization* required if using a CRIS with EPrints (our experience)
+
 ---
 ![width:700px](strathprints-screen-3.jpg)
 
@@ -161,12 +165,33 @@ or discretionary minting?
 ---
 # AAMs, versioning, & other animals
 
-Version 
-Agustina and Alexia to say more, inc. DOI versioning.
+Versioning: Agustina and Alexia to say more :smile:
 
-Issues of versioning, ensuring richest data sent to the DataCite registry means we prefer to await as much metadata as possible prior to minting 
+- Support for DOI versioning in EPrints (?) - what's a minor or major change?
+- Ensuring richest data sent to DataCite registry upon minting
+- Preference for waiting for essential metadata to ensure relational linking 
 
 ---
+# Ouch! Some pain points...
+
+ 'Variable quality' (ahem!) project data causes DOI registration issues
+- Local project data capture too removed from thinking globally
+- Zero support for URIs in Pure (e.g. funders, grants)
+
+Project data now suppressed in DataCite XML sent to DataCite by Strathprints
+- Manual intervention needed -- either at Fabrica (DataCite) or directly on Strathprints prior to initiating minting
+- ....issue obviated if we were using EPrints in isolation... :thumbsup:
+
+---
+# Ouch! More suffering...
+Integrations with CRIS software:
+- Specific technical issues to be overcome in with EPrints/Pure ([learn more](https://strathprints.strath.ac.uk/68240/))
+- Need to 'write protecting' database fields in EPrints
+
+Other PIDs and enriching the PID graph
+Ensuring relational links
+
+
 ---
 # Minting, but not as we know it, Jim...
 
@@ -176,10 +201,6 @@ DataCite form
 Export and import DataCite compliant XML metadata
 - 
 ---
-# Other PIDs...
-CORE OAI IDs
- 
----
 
 # Other compliance options...
 Zenodo
@@ -187,7 +208,9 @@ Zenodo
  
 ---
 
-# Possible pain points...
+# Some pain points...
+
+
 Project data
 Integrations with CRIS
 'Write protecting' database fields
