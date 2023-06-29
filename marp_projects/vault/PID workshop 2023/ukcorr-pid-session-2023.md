@@ -5,10 +5,8 @@ paginate: true
 size: 16:9
 header: PIDs and repositories...
 footer: UKCORR webinar - 30 June 2023
-title: Marp custom themes
+title: PIDS and repositories: experiences & practial issues of implementing DOIs for content - perspectives from Strathclyde (Strathprints)
 ---
-<!-- _class: title -->
-
 # PIDs and repositories: experiences & practical issues of implementing DOIs for content
 ## Perspectives from Cambridge (Apollo) & Strathclyde (Strathprints)
 
@@ -33,16 +31,17 @@ George Macgregor (University of Strathclyde)
 3. Perspectives from Cambridge - [Apollo](https://www.repository.cam.ac.uk/) (DSpace & Elements)
 - *Different systems and different journeys, but useful overlap between Cambridge & Strathclyde!* :-)
 4. Questions / discussion
-
 ---
 # PIDs and repositories: experiences & practical issues of implementing DOIs for content
 ## Perspectives from Strathclyde (Strathprints)
 
-
 George Macgregor
 University of Strathclyde
-2023-06-30
 https://purl.org/g3om4c
+![width:150px](ukcorr_logo2.png)
+
+
+![width:150px](by-sa.png)
 
 ---
 # The 'technical' bit: what are PIDs?
@@ -141,7 +140,7 @@ From configuration to *customization...*
 # Example... walk the walk :smile:
 **'PIDs and repositories: experiences & practical issues of implementing DOIs for content : perspectives from Strathclyde (Strathprints)'**
 
-Deposited here: 
+- Deposited here: https://strathprints.strath.ac.uk/85975/
 
 Let's mint now! :crossed_fingers:
 
@@ -186,58 +185,42 @@ Project data now suppressed in DataCite XML sent to DataCite by Strathprints
 # Ouch! More suffering...
 Integrations with CRIS software:
 - Specific technical issues to be overcome in with EPrints/Pure ([learn more](https://strathprints.strath.ac.uk/68240/))
-- Need to 'write protecting' database fields in EPrints
+- Need to 'write protect' database fields in EPrints
 
 Other PIDs and enriching the PID graph
-Ensuring relational links
+- Imposing relational links challenging when Strathprints a slave system to Pure
+- See above RE project data :wink:
+- Manual intervention at Strathprints side but need to avoid double-keying (and over writing)
 
 
 ---
 # Minting, but not as we know it, Jim...
 
-Important -- there is always an option available to comply, even with DOIs.
+**Important to remember**
+- There are always options available to comply with UKRI / Plan S, even with DOIs.
 
-DataCite form
-Export and import DataCite compliant XML metadata
-- 
----
+DataCite, for example:
+- Register and mint your DOIs manually, using DataCite Fabrica UI
+- Export DataCite compliant XML from your repo, and upload to registry using DataCite Fabrica UI
 
-# Other compliance options...
-Zenodo
-
+Think out of the box! Use a parallel solution!
+- Grab a PID from an open system that supports them, e.g. Zenodo
+Or, consider [CORE OAI ID](https://core.ac.uk/documentation/oai-resolver), *potential* distributed alternative
  
----
-
-# Some pain points...
-
-
-Project data
-Integrations with CRIS
-'Write protecting' database fields
-Other PIDs and enriching the PID graph
-Ensuring relational links
-
-
- 
----
-# Title page ad hoc fix
-
-If the title of your presentation is too long and the border intersects with the text underneath, use the following
-
-```html
-# Title
-<br/>
-<!-- empty line here --->
-Author's name
-University of XYZ
-...
-```
-make sure to leave an empty line below the `<br/>` tag
 
 ---
-<!-- _class: tinytext -->
-# Tinytext class
+# Useful links
+Some useful links you may have missed in the presentation:
+- [DataCite](https://datacite.org/)
+- [DataCite Fabrica](https://doi.datacite.org/)
+- [Jisc Persistent Identifiers](https://beta.jisc.ac.uk/innovation/projects/a-national-persistent-identifier-research-strategy)
+- [CORE OAI ID Resolver](https://core.ac.uk/oai_resolver)
 
-- use `<!-- _class: tinytext -->` to make some text tiny
-- might be useful for References
+DataCiteDoi integration (EPrints)
+- [For 3.4+]( https://github.com/eprintsug/DataCiteDoiUsing)
+- [For 3.3+](http://bazaar.eprints.org/1100/)
+---
+## Questions.....?!
 
+
+If you think of questions later... contact me here: https://purl.org/g3om4c
