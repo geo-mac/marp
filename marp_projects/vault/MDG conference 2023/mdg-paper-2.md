@@ -1,15 +1,13 @@
 ---
 marp: true
 theme: gaia
-paginate: beamer
+paginate: true
 size: 16:9
 header: Modelling research output expressions...
 footer: ReDiscovery - MDG Conference 2023
-title: Modelling research output expressions
+title: Marp custom themes
 ---
-<!-- _class: title -->
-
-# Modelling research output expressions : metadata schema modelling of publication lifecycles & scholarly entities
+# Authority of assertion in the PID graph
 
 
 Dr George Macgregor
@@ -50,30 +48,6 @@ Prominent repository metadata applications profiles include:
 - Scholarly Works Applications Profile (SWAP) - deceased, but more on that later!
 - Rioxx v2.0, more on this too!
  
----
-# In 2013
-
-Publication lifecycles and scholarly entities remain relatively simpler
-
----
-# In 2023
-
-Versions, datasets, software, people, grants, funders, samples
-PID graph
-
----
-# SWAP
-
-SWAP recognized that some relation
-
-
----
-# Rioxx v 3.0
-
-Long road -- changes to implement
-Objectives - discovery
-
-
 ---
 # Title page ad hoc fix
 
