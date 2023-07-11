@@ -61,13 +61,13 @@ Publication lifecycles and scholarly entities remain relatively simple
 SWAP: Scholarly Works Application Profile [REF]
 - Clear motivation; supported by Jisc
 - Recognized importance of relations between entities
-- Used FRBR properly!
+- Used FRBR properly! Yay!
 
 Never adopted by repositories
-- Overkill in 2008
+- Overkill in 2008...?
 - Difficult to implement within repository software
 - Too esoteric for those working with scholarly digital content
-- Useful conceptual exercise but did not address discovery satisfactorily
+- Useful conceptual exercise but did not address machine discovery satisfactorily
 
 ---
 # In 2023
@@ -76,16 +76,42 @@ Versions, datasets, software, people, grants, funders, samples
 PID graph
 
 ---
-# SWAP
+# Reality inescapable...
 
-SWAP recognized that some relation
+Acknowledgement of 
+Enshrined in open research requirements of funders (Plan S, UKRI, G7)
+
+---
+# Rioxx v 3.0
+Research Output Metadata Schema
+Version 2.0 widely adopted since 2016
+Discovery improvements, esp. in harvesting and aggregation
+Version 3.0
+Improves modelling of scholarly entities & relations
+Capitalizes on discovery potential
+Makes productive contribution to PID graph
+
+---
+# Vocabularies
+List vocabulraries
+Optimum use of PIDs
+Contributions to the PID graph
+(Can create issues with 'authority of assertion' - see tomorrow!)
+
+
+---
+# but
+
+Outdated thinking on these matters persists
+
+Lack of technical understanding of URIs, PIDs, and relational linking
+
 
 
 ---
 # Rioxx v 3.0
 
 Long road -- changes to implement
-Objectives - discovery
 
 
 ---
