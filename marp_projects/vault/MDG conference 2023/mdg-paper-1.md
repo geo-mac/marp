@@ -53,7 +53,21 @@ Prominent repository metadata applications profiles include:
 ---
 # In 2013
 
-Publication lifecycles and scholarly entities remain relatively simpler
+Publication lifecycles and scholarly entities remain relatively simple
+
+---
+# SWAP circa 2008
+
+SWAP: Scholarly Works Application Profile [REF]
+- Clear motivation; supported by Jisc
+- Recognized importance of relations between entities
+- Used FRBR properly!
+
+Never adopted by repositories
+- Overkill in 2008
+- Difficult to implement within repository software
+- Too esoteric for those working with scholarly digital content
+- Useful conceptual exercise but did not address discovery satisfactorily
 
 ---
 # In 2023
