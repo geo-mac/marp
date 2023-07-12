@@ -85,7 +85,7 @@ Enshrined in open research requirements of funders (Plan S, UKRI, G7)
 # Rioxx v 3.0
 Research Output Metadata Schema
 Version 2.0 widely adopted since 2016
-Discovery improvements, esp. in harvesting and aggregation
+Discovery improvements, esp. in harvesting and aggregation -- file locations critical (REF Petr's & Martin's work)
 Version 3.0
 Improves modelling of scholarly entities & relations
 Capitalizes on discovery potential
