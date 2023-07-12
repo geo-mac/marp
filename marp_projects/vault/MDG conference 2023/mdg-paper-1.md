@@ -60,7 +60,7 @@ Publication lifecycles and scholarly entities remain relatively simple
 
 SWAP: Scholarly Works Application Profile [REF]
 - Clear motivation; supported by Jisc
-- Recognized importance of relations between entities
+- Recognized importance of relations between entities, esp. funding
 - Used FRBR properly! Yay!
 
 Never adopted by repositories
