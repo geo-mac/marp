@@ -90,6 +90,7 @@ Version 3.0
 Improves modelling of scholarly entities & relations
 Capitalizes on discovery potential
 Makes productive contribution to PID graph
+PID-ification -- greater URI referencing
 
 ---
 # Vocabularies
