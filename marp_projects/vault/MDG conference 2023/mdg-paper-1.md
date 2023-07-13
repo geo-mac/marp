@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: gaia
+theme: beamer
 paginate: beamer
 size: 16:9
 header: Modelling research output expressions...
@@ -16,6 +16,7 @@ Dr George Macgregor
 University of Glasgow
 2023-09-06
 https://purl.org/g3om4c
+![width:125px](by-sa.png)
 
 ---
 
@@ -53,33 +54,48 @@ Prominent repository metadata applications profiles include:
 ---
 # In 2013
 
-Publication lifecycles and scholarly entities remain relatively simple
+
+The good old days... :smile:
+
+...when publication lifecycles and scholarly entities were (*relatively*) simple...
 
 ---
+![width:950px](swap-example.png)
+
+---
+
 # SWAP circa 2008
 
-SWAP: Scholarly Works Application Profile [REF]
+**SWAP: Scholarly Works Application Profile** [REF]
 - Clear motivation; supported by Jisc
 - Recognized importance of relations between entities, esp. funding
 - Used FRBR properly! Yay!
 
-Never adopted by repositories
+**But never adopted by repositories**
 - Overkill in 2008...?
 - Difficult to implement within repository software
 - Too esoteric for those working with scholarly digital content
 - Useful conceptual exercise but did not address machine discovery satisfactorily
 
 ---
-# In 2023
+# 2023
 
-Versions, datasets, software, people, grants, funders, samples
-PID graph
+The future envisaged by SWAP is now the present, sort of...
+
+...but this future is actually more *complex*...
+
+---
+
+
+![width:940px](swap-example-2023.png)
 
 ---
 # Reality inescapable...
 
-Acknowledgement of 
 Enshrined in open research requirements of funders (Plan S, UKRI, G7)
+Burgeoning 'PID graph'
+Need to respond to complexity while ensuring discovery advantages
+
 
 ---
 # Rioxx v 3.0
