@@ -60,7 +60,7 @@ The good old days... :smile:
 **SWAP: Scholarly Works Application Profile** [REF]
 - Clear motivation; supported by Jisc
 - Recognized importance of relations between entities, esp. funding
-- Used FRBR properly! Yay!
+- Used FRBR! Yay!
 
 **But never adopted by repositories**
 - Overkill in 2008...?
@@ -109,6 +109,7 @@ Exploring the graph with [Neo4j](https://neo4j.com/)...
 # Rioxx v3.0
 **Version 3.0**
 - Improves modelling of scholarly entities & relations
+	- Borrows conceptual thinking from FRBR (but not SWAP!)
 - Capitalizes on discovery potential
 - Better supports productive contribution to PID graph
 - 'PID-ification '-- greater URI referencing & semantics
@@ -137,19 +138,18 @@ Optimum use of PIDs for reference and relational associations between related wo
 -  (Can create issues with 'authority of assertion' - see tomorrow!)
 
 ---
-# Examples
+# Example snippets...
 
 ```xml
 <rioxxterms:contributor>
-    Bhopal, Kalwant
-	  <rioxxterms:id>https://orcid.org/0000-0003-3017-6595</rioxxterms:id>
-	  <rioxxterms:id>https://isni.org/isni/0000000038079210</rioxxterms:id>
-	  <rioxxterms:id>https://www.wikidata.org/wiki/Q61998297</rioxxterms:id>
+    <rioxxterms:name>Bhopal, Kalwant</rioxxterms:name>
+	<rioxxterms:id>https://orcid.org/0000-0003-3017-6595</rioxxterms:id>
+	<rioxxterms:id>https://isni.org/isni/0000000038079210</rioxxterms:id>
+	<rioxxterms:id>https://www.wikidata.org/wiki/Q61998297</rioxxterms:id>
 </rioxxterms:contributor>
 ```
-LINK HERE TO EXAMPLE
-
 ---
+# ...
 ```xml
 <rioxxterms:file 
 	coar_type="https://purl.org/coar/resource_type/c_6501" 
@@ -159,12 +159,12 @@ LINK HERE TO EXAMPLE
 	cite_as="https://doi.org/10.17868/strath.00084907"
 	access_rights="https://purl.org/coar/access_right/c_abf2"
 	license_ref="https://creativecommons.org/licenses/by/4.0/"
-	deposit_host="local"
 	format="application/pdf">
             https://strathprints.strath.ac.uk/84907/7/Jiang_etal_...on.pdf
 </rioxxterms:file>
 ```
 ---
+# ...
 Introduction of ```rioxxterms:relation```:
 ```xml
 <!--Relation to VoR-->
@@ -183,6 +183,10 @@ Introduction of ```rioxxterms:relation```:
             https://doi.org/10.5880/fidgeo.2021.032
 </rioxxterms:relation>
 ```
+
+---
+# Some fuller but simple examples...
+[Example 1](https://github.com/geo-mac/Rioxx-development/blob/development/model/rioxx-schema-examples-july.md#example-1), [example 2](https://github.com/geo-mac/Rioxx-development/blob/development/model/rioxx-schema-examples-july.md#example-2), [example 3](https://github.com/geo-mac/Rioxx-development/blob/development/model/rioxx-schema-examples-july.md#example-3)
 
 ---
 
