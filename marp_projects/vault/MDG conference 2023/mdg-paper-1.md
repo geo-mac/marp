@@ -97,19 +97,24 @@ The future envisaged by SWAP is now the present, sort of...
 Exploring the graph with [Neo4j](https://neo4j.com/)...
 
 ---
-# Rioxx v 3.0
+# Rioxx
 **Rioxx: Research Output Metadata Schema**
 - [Version 2.0](https://www.rioxx.net/profiles/v2-0-final/) widely adopted since 2016; Dublin Core with extensions
-- Discovery improvements, esp. in harvesting and aggregation [1] -- file locations critical [2]
-
+- Discovery improvements, esp. in harvesting and aggregation [1] -- file location links critical [2]
+	- Repositories default support of Dublin Core spectacularly ineffective for OAI-PMH harvesting of digital content
+	- *Full-text harvesting request average for single resource using Dublin Core:* 
+	- **Digital Commons** (13K!!), **DSpace** (1.5K!) [2]
+	- **EPrints** = 8. Better but 7 too many! [2]
+---
+# Rioxx v3.0
 **Version 3.0**
 - Improves modelling of scholarly entities & relations
 - Capitalizes on discovery potential
-- Makes productive contribution to PID graph
-- 'PID-ification '-- greater URI referencing
+- Better supports productive contribution to PID graph
+- 'PID-ification '-- greater URI referencing & semantics
 
 ---
-# Vocabularies, semantics, & PID types
+# v3.0: Vocabularies, semantics, & PID types
 (Beyond structure) language independent semantics conveyed by SKOS:
 - [COAR Resource Type Vocabulary](http://purl.org/coar/resource_type/)
 - [COAR Access Rights Vocabulary](http://purl.org/coar/access_right/)
