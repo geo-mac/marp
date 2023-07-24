@@ -57,15 +57,15 @@ The good old days... :smile:
 
 # SWAP circa 2008
 
-**SWAP: Scholarly Works Application Profile** [REF]
+**SWAP: Scholarly Works Application Profile** [1]
 - Clear motivation; supported by Jisc
 - Recognized importance of relations between entities, esp. funding
 - Used FRBR! Yay!
 
 **But never adopted by repositories**
-- Overkill in 2008...?
+- Ahead of its time in 2008...?
 - Difficult to implement within repository software
-- Too esoteric for those working with scholarly digital content
+- Too esoteric for those working with scholarly digital content [2]
 - Useful conceptual exercise but did not address machine discovery satisfactorily
 
 ---
@@ -81,11 +81,13 @@ The future envisaged by SWAP is now the present, sort of...
 ![width:980px](swap-example-2023.png)
 
 ---
-# Reality inescapable...
+# Trends in scholarly publication inescapable...
 
 1. Need to respond to complexity while ensuring discovery advantages
+	1. *Provenance & contextualization*
 2. Enshrined in open research requirements of funders (Plan S, UKRI, G7)
-3. Growth of rights retention strategy (RRS), FAIR data, data management planning (DMPs)
+3. *Reproducibility, verification, replication* -- scholarly record & the "reproducibility crisis"
+	1. Growth of rights retention strategy (RRS), FAIR data, data management planning (DMPs)
 4. Supporting the burgeoning 'PID graph'
 ---
 ![width:940px](pid-graph.png)
@@ -100,11 +102,11 @@ Exploring the graph with [Neo4j](https://neo4j.com/)...
 # Rioxx
 **Rioxx: Research Output Metadata Schema**
 - [Version 2.0](https://www.rioxx.net/profiles/v2-0-final/) widely adopted since 2016; Dublin Core with extensions
-- Discovery improvements, esp. in harvesting and aggregation [1] -- file location links critical [2]
+- Discovery improvements, esp. in harvesting and aggregation [2] -- file location links critical [3]
 	- Repositories default support of Dublin Core spectacularly ineffective for OAI-PMH harvesting of digital content
 	- *Full-text harvesting request average for single resource using Dublin Core:* 
-	- **Digital Commons** (13K!!), **DSpace** (1.5K!) [2]
-	- **EPrints** = 8. Better but 7 too many! [2]
+	- **Digital Commons** (13K!!), **DSpace** (1.5K!) [3]
+	- **EPrints** = 8. Better but 7 too many! [3]
 ---
 # Rioxx v3.0
 **Version 3.0**
@@ -190,14 +192,14 @@ Introduction of ```rioxxterms:relation```:
 
 ---
 
-@@@ DIAGRAM SLIDE OF RELATIONS & CONTRIBUTIONS TO GRAPH
+![width:1000px](rioxx-example-graph.png)
 
 ---
 # But, questions for the community?
 
 Is there outdated thinking within the community when it comes to resource description in a more URI-centric and relationally holistic way?
 
-*Possibly...**
+*Possibly...*
 
 **Attachment to outdated notions of publication?**
 - The prism of the 'published version' (Version of Record - VoR)
@@ -217,9 +219,15 @@ Is there outdated thinking within the community when it comes to resource descri
 ---
 # References
 
-[1] P. Knoth and B. Notay, ['UKRI OA policy requirements for repositories and how to meet them'](https://www.slideshare.net/petrknoth/ukri-oa-policy-requirements-for-repositories-and-how-to-meet-them), presented at the *Jisc Workshop, 2021*. Accessed: Jul. 18, 2023.  
+[1] J. Allinson, [‘Describing Scholarly Works with Dublin Core: A Functional Approach’](https://eprints.whiterose.ac.uk/8522/), *Library Trends*, 57 (2), pp. 221–243, 2008. Accessed Jul. 18, 2023. 
 
-[2] P. Knoth, M. Cancellieri, M. Klein, ['Comparing the performance of OAI-PMH with ResourceSync'](https://www.slideshare.net/martinklein0815/comparing-the-performance-of-oaipmh-with-resourcesync), *The 14th International Conference on Open Repositories (OR2019)* June 2019. Universität Hamburg, Hamburg. Accessed: Jul. 18, 2023.
+[2] E. O’Neill and M. Žumer, ‘FRBR: Application of the Model to Textual Documents’,
+Libr. Resources Tech. Serv., 62 (4), Art. no. 4, Oct. 2018. Available: https:
+//doi.org/10.5860/lrts.62n4.176
+
+[2] P. Knoth and B. Notay, ['UKRI OA policy requirements for repositories and how to meet them'](https://www.slideshare.net/petrknoth/ukri-oa-policy-requirements-for-repositories-and-how-to-meet-them), presented at the *Jisc Workshop, 2021*. Accessed: Jul. 18, 2023.  
+
+[3] P. Knoth, M. Cancellieri, M. Klein, ['Comparing the performance of OAI-PMH with ResourceSync'](https://www.slideshare.net/martinklein0815/comparing-the-performance-of-oaipmh-with-resourcesync), *The 14th International Conference on Open Repositories (OR2019)* June 2019. Universität Hamburg, Hamburg. Accessed: Jul. 18, 2023.
 
 
 ---
