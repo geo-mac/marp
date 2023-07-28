@@ -1,71 +1,73 @@
 ---
 marp: true
-theme: gaia
+theme: beamer
 paginate: true
 size: 16:9
-header: Modelling research output expressions...
+header: 
 footer: ReDiscovery - MDG Conference 2023
-title: Marp custom themes
+title: Authority of assertion in repository contributions to the PID graph
 ---
-# Authority of assertion in the PID graph
+# Authority of assertion in repository contributions to the PID graph
 
 
-Dr George Macgregor
+[George Macgregor](https://purl.org/g3om4c)
 University of Glasgow
 2023-09-06
 https://purl.org/g3om4c
+https://orcid.org/0000-0002-8482-3973
+![width:125px](by-sa.png)
+
+(w/ [Barbara S. Lancho-Barrantes](https://orcid.org/0000-0001-9994-8886) & [Diane Rasmussen McAdie](https://orcid.org/0000-0003-1275-7054))
 
 ---
 
-# A normal slide
+# Overview
 
-# H1 again
-## H2
-### H3
-- bullet
-> quote
-```
-code
-```
-text
+
 
 ---
 
-# Repository metadata context
+# Open scholarly infrastructure
 
-- Repositories remain *very* good at making (scholarly) content discoverable
-- [OAI-PMH](http://www.openarchives.org/OAI/openarchivesprotocol.html) still a principal machine interface to repository content, despite alternatives (e.g. [ResourceSync](http://www.openarchives.org/rs/toc))
-- History - my favourite subject - and the folly of 'simple' Dublin Core...
-- Metadata profiles central to improved interoperability and semantics
-- Harvesting, aggregation, discovery and... compliance
+
 ---
-# Profile examples...
-Prominent repository metadata applications profiles include:
-- OpenAIRE (literature repositories)
-- OpenAIRE (data archives)
-- OpenAIRE (software)
-- UKETD 2017 (EThOS)
-- Scholarly Works Applications Profile (SWAP) - deceased, but more on that later!
-- Rioxx v2.0, more on this too!
+# The distributed, fragmented, fluid
  
 ---
-# Title page ad hoc fix
+# Persistent identifiers
 
-If the title of your presentation is too long and the border intersects with the text underneath, use the following
+Example PIDs
 
-```html
-# Title
-<br/>
-<!-- empty line here --->
-Author's name
-University of XYZ
-...
-```
-make sure to leave an empty line below the `<br/>` tag
 
 ---
-<!-- _class: tinytext -->
-# Tinytext class
+# PID graph
 
-- use `<!-- _class: tinytext -->` to make some text tiny
-- might be useful for References
+---
+![width:940px](pid-graph.png)
+[TIB – Leibniz Information Centre for Science and Technology - PID Service](https://projects.tib.eu/pid-service/en/persistent-identifiers/persistent-identifiers-pids/) (CC-BY)
+
+
+---
+![width:1100px](Neo4j.png)
+Exploring the graph with [Neo4j](https://neo4j.com/)...
+
+---
+
+
+![width:1100px](raid.jpg)
+RAiD envelope diagram. From Janke et al. [1], CC-BY.
+
+
+---
+
+
+![width:1000px](rioxx-example-graph.png)
+
+---
+
+# Repositories on front line of PID data contributions
+
+---
+To make scholarly work interpretable; to contextualize; to consolidate provenance
+
+Reproduciblity, verification, replication 

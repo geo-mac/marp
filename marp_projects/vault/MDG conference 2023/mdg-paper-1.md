@@ -11,7 +11,7 @@ title: Modelling research output expressions
 # Modelling research output expressions : metadata schema modelling of publication lifecycles & scholarly entities
 
 
-Dr George Macgregor
+George Macgregor
 University of Glasgow
 2023-09-06
 https://purl.org/g3om4c
@@ -21,13 +21,19 @@ https://orcid.org/0000-0002-8482-3973
 ---
 # Overview
 
-@@@ TO BE COMPLETED
+1. Briefly explore the metadata application profile landscape of open scholarly repositories
+2. Prior attempts to model expressions, relations, etc. of scholarly works
+3. Growth of the persistent identifier graph (PID graph)
+4. How the Rioxx: Research Output Metadata Schema (v3.0) is responding to a PID-centric and relational reality
+	- Brief exploration of Rioxx itself
+5. Community reflection that the Rioxx experience, and reality, is prompting
+
 
 ---
 
 # Repository metadata context
 
-- Repositories remain *very* good at making (scholarly) content discoverable
+- OOTB, repositories remain *very* good at making (scholarly) content discoverable
 - [OAI-PMH](http://www.openarchives.org/OAI/openarchivesprotocol.html) still a principal machine interface to repository content, despite alternatives (e.g. [ResourceSync](http://www.openarchives.org/rs/toc))
 - History - my favourite subject - and the folly of 'simple' Dublin Core...
 - Metadata profiles central to improved interoperability and semantics
@@ -35,12 +41,12 @@ https://orcid.org/0000-0002-8482-3973
 ---
 # Profile examples...
 Prominent repository metadata applications profiles include:
-- OpenAIRE (literature repositories)
-- OpenAIRE (data archives)
-- OpenAIRE (software)
-- UKETD 2017 (EThOS)
-- Scholarly Works Applications Profile (SWAP) - deceased, but more on that soon!
-- Rioxx v2.0, more on this too!
+- [OpenAIRE (literature repositories)](https://guidelines.openaire.eu/en/latest/literature/index.html)
+- [OpenAIRE (data archives)](https://guidelines.openaire.eu/en/latest/data/index.html)
+- [OpenAIRE (software)](https://software-guidelines.readthedocs.io/en/latest/)
+- [UKETD 2017 (EThOS)](https://github.com/eprintsug/oai_uketd_dc)
+- [Scholarly Works Applications Profile (SWAP) ](http://www.ukoln.ac.uk/repositories/digirep/index/Scholarly_Works_Application_Profile) - dead but not forgotten!
+- [Rioxx v2.0](https://www.rioxx.net/profiles/v2-0-final/), more on this too!
  
 ---
 # In 2013
@@ -115,6 +121,7 @@ Exploring the graph with [Neo4j](https://neo4j.com/)...
 - Capitalizes on discovery potential
 - Better supports productive contribution to PID graph
 - 'PID-ification '-- greater URI referencing & semantics
+- Retains some semblance of 'traditional' notions of publication `:thinking:`
 
 ---
 # v3.0: Vocabularies, semantics, & PID types
@@ -197,16 +204,25 @@ Introduction of ```rioxxterms:relation```:
 ---
 # But, questions for the community?
 
-Is there outdated thinking within the community when it comes to resource description in a more URI-centric and relationally holistic way?
+Are 'traditional' notions of publication holding back the community when it comes to resource description in a more URI-centric and relationally dependent resource environment?
 
 *Possibly...*
 
-**Attachment to outdated notions of publication?**
-- The prism of the 'published version' (Version of Record - VoR)
+---
+# Attachment to outdated notions of publication? :thinking:
 
-**Lack of technical understanding of URIs, PIDs, and relational linking?**
-- Improved understanding of web technology increasingly necessary
-- Working for the benefit of machines
+Attachment to seeing things through the prism of the 'published version' (Version of Record - VoR)
+- Distorts purer / richer metadata modelling of publication lifecyles and scholarly entities
+	- Including Rioxx v 3.0
+- Prism reinforces the primacy of publishers and dysfunction in scholarly publishing
+- Reality is increasingly fluid and relational
+---
+# Lack of technical understanding of URIs, PIDs, and relational linking? :thinking:
+
+The revenge of Linked Data and the Semantic Web...?
+- Improved understanding of web technology necessary
+- URIs, PIDs, relational linking and the role of distributed metadata
+- Working for the benefit of machines as well as humans
 
 ---
 # Rioxx v 3.0
@@ -215,6 +231,14 @@ Is there outdated thinking within the community when it comes to resource descri
 - Long road -- changes always to implement!
 - Advocate for adoption  - technical but also socio-technical
 - JSON-LD serialization of Rioxx forthcoming
+---
+## Thanks for listening!
+### Questions?!
+
+
+
+*Acknowledgement of work by Rioxx Governance Group:
+Nicola Dowson, Mick Eadie, Petr Knoth, Bev Jones, George Macgregor & Paul Walk*
 
 ---
 # References

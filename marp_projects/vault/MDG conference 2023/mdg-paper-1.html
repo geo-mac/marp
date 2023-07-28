@@ -21,13 +21,23 @@ University of Glasgow<br />
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="2" data-footer="ReDiscovery - MDG Conference 2023" style="--footer:ReDiscovery - MDG Conference 2023;" data-size="16:9">
 <h1 id="overview">Overview</h1>
-<p>@@@ TO BE COMPLETED</p>
+<ol>
+<li>Briefly explore the metadata application profile landscape of open scholarly repositories</li>
+<li>Prior attempts to model expressions, relations, etc. of scholarly works</li>
+<li>Growth of the persistent identifier graph (PID graph)</li>
+<li>How the Rioxx: Research Output Metadata Schema (v3.0) is responding to a PID-centric and relational reality
+<ul>
+<li>Brief exploration of Rioxx itself</li>
+</ul>
+</li>
+<li>Community reflection that the Rioxx experience, and reality, is prompting</li>
+</ol>
 <footer>ReDiscovery - MDG Conference 2023</footer>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="3" data-footer="ReDiscovery - MDG Conference 2023" style="--footer:ReDiscovery - MDG Conference 2023;" data-size="16:9">
 <h1 id="repository-metadata-context">Repository metadata context</h1>
 <ul>
-<li>Repositories remain <em>very</em> good at making (scholarly) content discoverable</li>
+<li>OOTB, repositories remain <em>very</em> good at making (scholarly) content discoverable</li>
 <li><a href="http://www.openarchives.org/OAI/openarchivesprotocol.html">OAI-PMH</a> still a principal machine interface to repository content, despite alternatives (e.g. <a href="http://www.openarchives.org/rs/toc">ResourceSync</a>)</li>
 <li>History - my favourite subject - and the folly of 'simple' Dublin Core...</li>
 <li>Metadata profiles central to improved interoperability and semantics</li>
@@ -39,12 +49,12 @@ University of Glasgow<br />
 <h1 id="profile-examples">Profile examples...</h1>
 <p>Prominent repository metadata applications profiles include:</p>
 <ul>
-<li>OpenAIRE (literature repositories)</li>
-<li>OpenAIRE (data archives)</li>
-<li>OpenAIRE (software)</li>
-<li>UKETD 2017 (EThOS)</li>
-<li>Scholarly Works Applications Profile (SWAP) - deceased, but more on that soon!</li>
-<li>Rioxx v2.0, more on this too!</li>
+<li><a href="https://guidelines.openaire.eu/en/latest/literature/index.html">OpenAIRE (literature repositories)</a></li>
+<li><a href="https://guidelines.openaire.eu/en/latest/data/index.html">OpenAIRE (data archives)</a></li>
+<li><a href="https://software-guidelines.readthedocs.io/en/latest/">OpenAIRE (software)</a></li>
+<li><a href="https://github.com/eprintsug/oai_uketd_dc">UKETD 2017 (EThOS)</a></li>
+<li><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Scholarly_Works_Application_Profile">Scholarly Works Applications Profile (SWAP) </a> - dead but not forgotten!</li>
+<li><a href="https://www.rioxx.net/profiles/v2-0-final/">Rioxx v2.0</a>, more on this too!</li>
 </ul>
 <footer>ReDiscovery - MDG Conference 2023</footer>
 </section>
@@ -60,7 +70,7 @@ University of Glasgow<br />
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-footer="ReDiscovery - MDG Conference 2023" style="--footer:ReDiscovery - MDG Conference 2023;" data-size="16:9">
 <h1 id="swap-circa-2008">SWAP circa 2008</h1>
-<p><strong>SWAP: Scholarly Works Application Profile</strong> [REF]</p>
+<p><strong>SWAP: Scholarly Works Application Profile</strong> [<a href="#references">1</a>]</p>
 <ul>
 <li>Clear motivation; supported by Jisc</li>
 <li>Recognized importance of relations between entities, esp. funding</li>
@@ -68,9 +78,9 @@ University of Glasgow<br />
 </ul>
 <p><strong>But never adopted by repositories</strong></p>
 <ul>
-<li>Overkill in 2008...?</li>
+<li>Ahead of its time in 2008...?</li>
 <li>Difficult to implement within repository software</li>
-<li>Too esoteric for those working with scholarly digital content</li>
+<li>Too esoteric for those working with scholarly digital content [2]</li>
 <li>Useful conceptual exercise but did not address machine discovery satisfactorily</li>
 </ul>
 <footer>ReDiscovery - MDG Conference 2023</footer>
@@ -86,11 +96,11 @@ University of Glasgow<br />
 <footer>ReDiscovery - MDG Conference 2023</footer>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="10" data-footer="ReDiscovery - MDG Conference 2023" style="--footer:ReDiscovery - MDG Conference 2023;" data-size="16:9">
-<h1 id="reality-inescapable">Reality inescapable...</h1>
+<h1 id="trends-in-scholarly-publication-inescapable">Trends in scholarly publication inescapable...</h1>
 <ol>
 <li>Need to respond to complexity while ensuring discovery advantages
 <ol>
-<li>Provenance &amp; contextualization</li>
+<li><em>Provenance &amp; contextualization</em></li>
 </ol>
 </li>
 <li>Enshrined in open research requirements of funders (Plan S, UKRI, G7)</li>
@@ -118,12 +128,12 @@ Exploring the graph with <a href="https://neo4j.com/">Neo4j</a>...</p>
 <p><strong>Rioxx: Research Output Metadata Schema</strong></p>
 <ul>
 <li><a href="https://www.rioxx.net/profiles/v2-0-final/">Version 2.0</a> widely adopted since 2016; Dublin Core with extensions</li>
-<li>Discovery improvements, esp. in harvesting and aggregation [1] -- file location links critical [2]
+<li>Discovery improvements, esp. in harvesting and aggregation [2] -- file location links critical [3]
 <ul>
 <li>Repositories default support of Dublin Core spectacularly ineffective for OAI-PMH harvesting of digital content</li>
 <li><em>Full-text harvesting request average for single resource using Dublin Core:</em></li>
-<li><strong>Digital Commons</strong> (13K!!), <strong>DSpace</strong> (1.5K!) [2]</li>
-<li><strong>EPrints</strong> = 8. Better but 7 too many! [2]</li>
+<li><strong>Digital Commons</strong> (13K!!), <strong>DSpace</strong> (1.5K!) [3]</li>
+<li><strong>EPrints</strong> = 8. Better but 7 too many! [3]</li>
 </ul>
 </li>
 </ul>
@@ -141,6 +151,7 @@ Exploring the graph with <a href="https://neo4j.com/">Neo4j</a>...</p>
 <li>Capitalizes on discovery potential</li>
 <li>Better supports productive contribution to PID graph</li>
 <li>'PID-ification '-- greater URI referencing &amp; semantics</li>
+<li>Retains some semblance of 'traditional' notions of publication <code>:thinking:</code></li>
 </ul>
 <footer>ReDiscovery - MDG Conference 2023</footer>
 </section>
@@ -231,20 +242,35 @@ Broader concept:  <strong>'dataset'</strong><br />
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="22" data-footer="ReDiscovery - MDG Conference 2023" style="--footer:ReDiscovery - MDG Conference 2023;" data-size="16:9">
 <h1 id="but-questions-for-the-community">But, questions for the community?</h1>
-<p>Is there outdated thinking within the community when it comes to resource description in a more URI-centric and relationally holistic way?</p>
-<p><em>Possibly...</em>*</p>
-<p><strong>Attachment to outdated notions of publication?</strong></p>
-<ul>
-<li>The prism of the 'published version' (Version of Record - VoR)</li>
-</ul>
-<p><strong>Lack of technical understanding of URIs, PIDs, and relational linking?</strong></p>
-<ul>
-<li>Improved understanding of web technology increasingly necessary</li>
-<li>Working for the benefit of machines</li>
-</ul>
+<p>Are 'traditional' notions of publication holding back the community when it comes to resource description in a more URI-centric and relationally dependent resource environment?</p>
+<p><em>Possibly...</em></p>
 <footer>ReDiscovery - MDG Conference 2023</footer>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="23" data-footer="ReDiscovery - MDG Conference 2023" style="--footer:ReDiscovery - MDG Conference 2023;" data-size="16:9">
+<h1 id="attachment-to-outdated-notions-of-publication-%F0%9F%A4%94">Attachment to outdated notions of publication? <img class="emoji" draggable="false" alt="🤔" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f914.svg" data-marp-twemoji=""/></h1>
+<p>Attachment to seeing things through the prism of the 'published version' (Version of Record - VoR)</p>
+<ul>
+<li>Distorts purer / richer metadata modelling of publication lifecyles and scholarly entities
+<ul>
+<li>Including Rioxx v 3.0</li>
+</ul>
+</li>
+<li>Prism reinforces the primacy of publishers and dysfunction in scholarly publishing</li>
+<li>Reality is increasingly fluid and relational</li>
+</ul>
+<footer>ReDiscovery - MDG Conference 2023</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="24" data-footer="ReDiscovery - MDG Conference 2023" style="--footer:ReDiscovery - MDG Conference 2023;" data-size="16:9">
+<h1 id="lack-of-technical-understanding-of-uris-pids-and-relational-linking-%F0%9F%A4%94">Lack of technical understanding of URIs, PIDs, and relational linking? <img class="emoji" draggable="false" alt="🤔" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f914.svg" data-marp-twemoji=""/></h1>
+<p>The revenge of Linked Data and the Semantic Web...?</p>
+<ul>
+<li>Improved understanding of web technology necessary</li>
+<li>URIs, PIDs, relational linking and the role of distributed metadata</li>
+<li>Working for the benefit of machines as well as humans</li>
+</ul>
+<footer>ReDiscovery - MDG Conference 2023</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="25" data-footer="ReDiscovery - MDG Conference 2023" style="--footer:ReDiscovery - MDG Conference 2023;" data-size="16:9">
 <h1 id="rioxx-v-30">Rioxx v 3.0</h1>
 <ul>
 <li>Version 3.0, 2nd release candidate available</li>
@@ -254,14 +280,25 @@ Broader concept:  <strong>'dataset'</strong><br />
 </ul>
 <footer>ReDiscovery - MDG Conference 2023</footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="24" data-footer="ReDiscovery - MDG Conference 2023" style="--footer:ReDiscovery - MDG Conference 2023;" data-size="16:9">
-<h1 id="references">References</h1>
-<p>[1] P. Knoth and B. Notay, <a href="https://www.slideshare.net/petrknoth/ukri-oa-policy-requirements-for-repositories-and-how-to-meet-them">'UKRI OA policy requirements for repositories and how to meet them'</a>, presented at the <em>Jisc Workshop, 2021</em>. Accessed: Jul. 18, 2023.</p>
-<p>[2] P. Knoth, M. Cancellieri, M. Klein, <a href="https://www.slideshare.net/martinklein0815/comparing-the-performance-of-oaipmh-with-resourcesync">'Comparing the performance of OAI-PMH with ResourceSync'</a>, <em>The 14th International Conference on Open Repositories (OR2019)</em> June 2019. Universität Hamburg, Hamburg. Accessed: Jul. 18, 2023.</p>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="26" data-footer="ReDiscovery - MDG Conference 2023" style="--footer:ReDiscovery - MDG Conference 2023;" data-size="16:9">
+<h2 id="thanks-for-listening">Thanks for listening!</h2>
+<h3 id="questions">Questions?!</h3>
+<p><em>Acknowledgement of work by Rioxx Governance Group:<br />
+Nicola Dowson, Mick Eadie, Petr Knoth, Bev Jones, George Macgregor &amp; Paul Walk</em></p>
 <footer>ReDiscovery - MDG Conference 2023</footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="25" data-footer="ReDiscovery - MDG Conference 2023" style="--footer:ReDiscovery - MDG Conference 2023;" data-size="16:9">
-<h1 id="questions">Questions</h1>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="27" data-footer="ReDiscovery - MDG Conference 2023" style="--footer:ReDiscovery - MDG Conference 2023;" data-size="16:9">
+<h1 id="references">References</h1>
+<p>[1] J. Allinson, <a href="https://eprints.whiterose.ac.uk/8522/">‘Describing Scholarly Works with Dublin Core: A Functional Approach’</a>, <em>Library Trends</em>, 57 (2), pp. 221–243, 2008. Accessed Jul. 18, 2023.</p>
+<p>[2] E. O’Neill and M. Žumer, ‘FRBR: Application of the Model to Textual Documents’,<br />
+Libr. Resources Tech. Serv., 62 (4), Art. no. 4, Oct. 2018. Available: https:<br />
+<a href="//doi.org/10.5860/lrts.62n4.176">//doi.org/10.5860/lrts.62n4.176</a></p>
+<p>[2] P. Knoth and B. Notay, <a href="https://www.slideshare.net/petrknoth/ukri-oa-policy-requirements-for-repositories-and-how-to-meet-them">'UKRI OA policy requirements for repositories and how to meet them'</a>, presented at the <em>Jisc Workshop, 2021</em>. Accessed: Jul. 18, 2023.</p>
+<p>[3] P. Knoth, M. Cancellieri, M. Klein, <a href="https://www.slideshare.net/martinklein0815/comparing-the-performance-of-oaipmh-with-resourcesync">'Comparing the performance of OAI-PMH with ResourceSync'</a>, <em>The 14th International Conference on Open Repositories (OR2019)</em> June 2019. Universität Hamburg, Hamburg. Accessed: Jul. 18, 2023.</p>
+<footer>ReDiscovery - MDG Conference 2023</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="28" data-footer="ReDiscovery - MDG Conference 2023" style="--footer:ReDiscovery - MDG Conference 2023;" data-size="16:9">
+<h1 id="questions-1">Questions</h1>
 <p>Thanks for listening!</p>
 <footer>ReDiscovery - MDG Conference 2023</footer>
 </section>
