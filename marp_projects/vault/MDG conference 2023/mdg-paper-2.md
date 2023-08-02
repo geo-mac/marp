@@ -71,3 +71,11 @@ RAiD envelope diagram. From Janke et al. [1], CC-BY.
 To make scholarly work interpretable; to contextualize; to consolidate provenance
 
 Reproduciblity, verification, replication 
+
+Concept of the multi-object work -- paper only understood with all components, yet all components are not under institutional control
+
+Comparison with METS package -- all component under institutional control and authority of assertion exists.
+
+Definitions of 'authority of assertion' - none available
+
+---
