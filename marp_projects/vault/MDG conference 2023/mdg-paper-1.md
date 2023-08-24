@@ -95,6 +95,7 @@ The future envisaged by SWAP is now the present, sort of...
 3. *Reproducibility, verification, replication* -- scholarly record & the "reproducibility crisis"
 	1. Growth of rights retention strategy (RRS), FAIR data, data management planning (DMPs)
 4. Supporting the burgeoning 'PID graph'
+5. Scholarly works as (unofficial) multi-part or multi-object outputs
 ---
 ![width:940px](pid-graph.png)
 [TIB – Leibniz Information Centre for Science and Technology - PID Service](https://projects.tib.eu/pid-service/en/persistent-identifiers/persistent-identifiers-pids/) (CC-BY)
