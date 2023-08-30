@@ -24,7 +24,7 @@ https://orcid.org/0000-0002-8482-3973
 1. Briefly explore the metadata application profile landscape of open scholarly repositories
 2. Prior attempts to model expressions, relations, etc. of scholarly works
 3. Growth of the persistent identifier graph (PID graph)
-4. How the Rioxx: Research Output Metadata Schema (v3.0) is responding to a PID-centric and relational reality
+4. How the [Rioxx: Research Output Metadata Schema (v3.0)](http://www.rioxx.net/profiles/v3-0-draft-2/) is responding to a PID-centric and relational data reality
 	- Brief exploration of Rioxx itself
 5. Community reflection that the Rioxx experience, and reality, is prompting
 
@@ -66,7 +66,7 @@ The good old days... :smile:
 **SWAP: Scholarly Works Application Profile** [1]
 - Clear motivation; supported by Jisc
 - Recognized importance of relations between entities, esp. funding
-- Used FRBR! Yay!
+- Used [FRBR](https://en.wikipedia.org/w/index.php?title=Functional_Requirements_for_Bibliographic_Records&oldid=1170594689)! Yay!
 
 **But never adopted by repositories**
 - Ahead of its time in 2008...?
@@ -116,12 +116,13 @@ Exploring the graph with [Neo4j](https://neo4j.com/)...
 	- **EPrints** = 8. Better but 7 too many! [3]
 ---
 # Rioxx v3.0
-**Version 3.0**
+**[Version 3.0](http://www.rioxx.net/profiles/v3-0-draft-2/)**
 - Improves modelling of scholarly entities & relations
-	- Borrows conceptual thinking from FRBR (but not SWAP!)
+	- Borrows conceptual thinking from FRBR (as per Library Reference Model) (but not SWAP!)
 - Capitalizes on discovery potential
 - Better supports productive contribution to PID graph
 - 'PID-ification '-- greater URI referencing & semantics
+- Alignment with [Signposting](https://signposting.org/) and [ResourceSync](http://www.openarchives.org/rs/toc)
 - Retains some semblance of 'traditional' notions of publication `:thinking:`
 
 ---
@@ -228,7 +229,7 @@ The revenge of Linked Data and the Semantic Web...?
 ---
 # Rioxx v 3.0
 
-- Version 3.0, 2nd release candidate available
+- [Version 3.0, 2nd draft available](http://www.rioxx.net/profiles/v3-0-draft-2/)
 - Long road -- changes always to implement!
 - Advocate for adoption  - technical but also socio-technical
 - JSON-LD serialization of Rioxx forthcoming

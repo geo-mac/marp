@@ -4,7 +4,7 @@ theme: beamer
 paginate: true
 size: 16:9
 header: 
-footer: ReDiscovery - MDG Conference 2023
+footer: 
 title: Authority of assertion in repository contributions to the PID graph
 ---
 # Authority of assertion in repository contributions to the PID graph
@@ -22,8 +22,14 @@ https://orcid.org/0000-0002-8482-3973
 ---
 
 # Overview
+Exploring issues when levels of 'authority of assertion' are lacking or are uncertain
 
-This paper is to outline a growing problems which is currently inadequately acknowledged in the literature or in the community.
+- Emergence of increasingly fluid, distributed, and fragmented scholarly objects
+- Emergence of persistent identification as a (partial) solution
+- The growing scholarly graph, e.g. 'PID graph'
+- Implications for repositories and the question of 'authority of assertion'
+- Scholars' 'PID literacy' as an impediment to satisfactory scholarly objective description (and ergo discovery)
+This paper is to outline an emerging problem -- inadequately acknowledged in the literature or in the community.
 
 ---
 
@@ -31,19 +37,29 @@ This paper is to outline a growing problems which is currently inadequately ackn
 
 
 ---
-# Traditional cataloguing / metadata creation
+![width:1150px](Dresden-Neustadt.jpeg)
 
-Statements of fact
-Item in front of the metadata guru
 
-Even in formal digital libraries, objects static (e.g. digitized objects, etc)
 
 ---
-# The distributed, fragmented, fluid
+# Metadata conventions...
 
-Multi object scholarly outputs
+- Generating statements of fact about (often) tangible things...
+- Even in formal digital libraries, objects (often) static things with predictable descriptive metadata attributes (e.g. digitized objects, etc)
+	- Linked Open Data (RDF/URIs)
+- "...change is slow" [REF cambrdge book]
 
-Unlike a METS package
+\\\
+
+[Photo, previous slide :arrow_heading_up:] [Dresden-Neustadt. Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden, Europeana](https://www.europeana.eu/en/item/437/item_GWKOGR5EYEUJ4CCOGJF5ROU3N5PQJFWE) (CC-BY-SA) 
+
+---
+# Distribution, fragmentation, fluidity
+Disorientation grows for metadata creators but also users in discovery
+- Increasing levels of distribution, fragmentation, and fluidity
+Emergence of distributed, multi object (often 'non-standard') scholarly objects 
+- Multi-object exists elsewhere (e.g. METS package ) but all components under single institutional control where 'authority of assertion' exists
+- PIDs increasingly central to linking, disambiguating, discovery 
 
 ---
 # What are PIDs?
@@ -66,7 +82,7 @@ Unlike a METS package
 
 ---
 # PID graph
-Linked Open Data déjà vu... of sorts...
+.... or Linked Open Data déjà vu... ?
 
 ---
 ![width:940px](pid-graph.png)
@@ -85,29 +101,51 @@ RAiD envelope diagram. From Janke et al. [1], CC-BY.
 
 
 ---
+![width:980px](swap-example-2023.png)
 
-
+---
 ![width:1000px](rioxx-example-graph.png)
 
 ---
 
 # Repositories on front line of PID data contributions
 
----
-To make scholarly work interpretable; to contextualize; to consolidate provenance
+`distribution + fragmentation + fluidity`
 
-Reproduciblity, verification, replication 
+**Such metadata key to making scholarly works:**
 
-Concept of the multi-object work -- paper only understood with all components, yet all components are not under institutional control
+*Interpretable...*
+- to contextualize; to provide provenance
 
-Comparison with METS package -- all component under institutional control and authority of assertion exists.
+*Support reproducibility...*
+- to facilitate reproduciblity, verification, replication 
 
-
+*Discoverable...*
+- to enable discovery through a variety of access points, some unconventional
 
 ---
 # What is authority of assertion?
 
-Definitions of 'authority of assertion' - none available
+Concept of 'authority of assertion' exists but an under-research area; no definitions
+
+- *[authority](https://dictionary.cambridge.org/dictionary/english/authority)* = "official permission or the legal right to do something" [Cambridge Dictionary def]
+
+- *[assertion](https://dictionary.cambridge.org/dictionary/english/assertion)* = "a statement that you strongly believe is true" [Cambridge Dictionary]
+
+**Ergo, could we propose the following:**
+
+*The extent to which there exists a right to make metadata statements about objects and their relations, such that these statements are reliable, verifiable, and true* 
+
+---
+# Authority of assertion and the 'bread crumbs'
+
+
+---
+# Assertion and 'PID literacy'
+Level of authority of assertion exists only as far as scholars' PID literacy
+
+Components of multi-object, non-standard scholarly objects can often be inferred
+Lack of authority to assert makes any statement 
 
 ---
 
