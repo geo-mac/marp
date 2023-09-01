@@ -19,6 +19,8 @@ https://orcid.org/0000-0002-8482-3973
 
 (w/ [Barbara S. Lancho-Barrantes](https://orcid.org/0000-0001-9994-8886) & [Diane Rasmussen McAdie](https://orcid.org/0000-0003-1275-7054))
 
+Slides available: `https://doi.org/10.17868/strath.00085167`
+
 ---
 
 # Overview
@@ -31,14 +33,9 @@ Exploring issues when levels of 'authority of assertion' are lacking or are unce
 - Scholars' 'PID literacy' as an impediment to satisfactory scholarly objective description (and ergo discovery)
 This paper is to outline an emerging problem -- inadequately acknowledged in the literature or in the community.
 
----
-
-# Open scholarly infrastructure
-
 
 ---
 ![width:1150px](Dresden-Neustadt.jpeg)
-
 
 
 ---
@@ -54,12 +51,19 @@ This paper is to outline an emerging problem -- inadequately acknowledged in the
 [Photo, previous slide :arrow_heading_up:] [Dresden-Neustadt. Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden, Europeana](https://www.europeana.eu/en/item/437/item_GWKOGR5EYEUJ4CCOGJF5ROU3N5PQJFWE) (CC-BY-SA) 
 
 ---
+# Open scholarly infrastructure
+
+![width:400px](open-schol.png)
+
+Bilder G, Lin J, Neylon C (2020), The Principles of Open Scholarly Infrastructure, https://doi.org/10.24343/C34W2H 
+
+---
 # Distribution, fragmentation, fluidity
-Disorientation grows for metadata creators but also users in discovery
+Disorientation grows for metadata creators with research domain, but also for users in discovery for research content...
 - Increasing levels of distribution, fragmentation, and fluidity
-Emergence of distributed, multi object (often 'non-standard') scholarly objects 
-- Multi-object exists elsewhere (e.g. METS package ) but all components under single institutional control where 'authority of assertion' exists
-- PIDs increasingly central to linking, disambiguating, discovery 
+	- Emergence of distributed, multi object (often 'non-standard') transient scholarly objects 
+- Multi-object exists elsewhere (e.g. METS package) but all components under direct custodianship where *authority of assertion* exists 
+- PIDs increasingly central to linking, description, disambiguation, discovery 
 
 ---
 # What are PIDs?
@@ -83,6 +87,8 @@ Emergence of distributed, multi object (often 'non-standard') scholarly objects
 ---
 # PID graph
 .... or Linked Open Data déjà vu... ?
+
+![width:400px](pid-graph-icon.png)
 
 ---
 ![width:940px](pid-graph.png)
@@ -124,7 +130,7 @@ RAiD envelope diagram. From Janke et al. [1], CC-BY.
 - to enable discovery through a variety of access points, some unconventional
 
 ---
-# What is authority of assertion?
+# What is 'authority of assertion'?
 
 Concept of 'authority of assertion' exists but an under-research area; no definitions
 
@@ -137,22 +143,74 @@ Concept of 'authority of assertion' exists but an under-research area; no defini
 *The extent to which there exists a right to make metadata statements about objects and their relations, such that these statements are reliable, verifiable, and true* 
 
 ---
-# Authority of assertion and the 'bread crumbs'
+# The 'bread crumbs' and authority of assertion
 
 
 ---
+![width:1000px](assertion-example.png)
+
+---
+
+![width:1000px](assertion-example-1.png)
+
+---
+
+![width:1000px](assertion-example-2.png)
+
+---
+
+![width:1000px](assertion-example-3.png)
+
+---
+
+![width:1000px](assertion-example-4.png)
+
+---
+
+![width:1000px](assertion-example-5.png)
+
+---
+![width:1000px](assertion-example-6.png)
+
+---
 # Assertion and 'PID literacy'
-Level of authority of assertion exists only as far as scholars' PID literacy
 
-Components of multi-object, non-standard scholarly objects can often be inferred
-Lack of authority to assert makes any statement 
+- Components of multi-object, non-standard scholarly objects can often be inferred
+- Lack of authority to assert can make statements problematic
+	- Even if we assert a vanilla-flavoured PID, we want to assert the predicate / attribute of that PID, e.g. `IsVersionOf`, `HasPart`, etc.
+	- Repository understanding of relationship necessary
+- Level of authority of assertion exists only as far as scholars' PID literacy!
+Analogy - Cataloguing a book and finding that half the title page is missing...
+---
+Lack of authority to assert
+Undermining the multi-part scholarly object
+Undermining end-user discovery and establishment of provenance
+Undermining open research, esp. verification, reproducibility, etc.
+Underming ability of repositories to contribute rich data to the wider scholarly PID graph
 
+---
+"PID literate scholar might display the following competencies:
+
+1. An understanding of persistent identification in scholarship, when it should be used, and its importance to the scholarly record and the wider PID graph.    
+2. An ability to accurately identify, reproduce, and cite PIDs in scholarship activities.    
+3. Cognizance of adjacent PID types relevant to scholars’ community of practice, such as those devised to identify scholarly “things” other than academic papers." [REF]
 ---
 
 # Does PID literacy hold the key?
 
-
-
-
+Reliance on scholars to signpost 
+Radical improvement of 'digital scholarship' skills necessary
+Skills deficit notable across all disciplines, though better in some
 
 ---
+# References
+
+[1] J. Allinson, [‘Describing Scholarly Works with Dublin Core: A Functional Approach’](https://eprints.whiterose.ac.uk/8522/), *Library Trends*, 57 (2), pp. 221–243, 2008. Accessed Jul. 18, 2023. 
+
+[2] E. O’Neill and M. Žumer, ‘FRBR: Application of the Model to Textual Documents’,
+Libr. Resources Tech. Serv., 62 (4), Art. no. 4, Oct. 2018. Available: https:
+//doi.org/10.5860/lrts.62n4.176
+
+[2] P. Knoth and B. Notay, ['UKRI OA policy requirements for repositories and how to meet them'](https://www.slideshare.net/petrknoth/ukri-oa-policy-requirements-for-repositories-and-how-to-meet-them), presented at the *Jisc Workshop, 2021*. Accessed: Jul. 18, 2023.  
+
+[3] P. Knoth, M. Cancellieri, M. Klein, ['Comparing the performance of OAI-PMH with ResourceSync'](https://www.slideshare.net/martinklein0815/comparing-the-performance-of-oaipmh-with-resourcesync), *The 14th International Conference on Open Repositories (OR2019)* June 2019. Universität Hamburg, Hamburg. Accessed: Jul. 18, 2023.

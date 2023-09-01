@@ -17,6 +17,7 @@ University of Glasgow
 https://purl.org/g3om4c
 https://orcid.org/0000-0002-8482-3973
 ![width:125px](by-sa.png)
+Slides available: `https://doi.org/10.17868/strath.00085166`
 
 ---
 # Overview
