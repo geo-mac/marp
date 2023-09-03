@@ -61,7 +61,7 @@ Bilder G, Lin J, Neylon C (2020), The Principles of Open Scholarly Infrastructur
 # Distribution, fragmentation, fluidity
 Disorientation grows for metadata creators with research domain, but also for users in discovery for research content...
 - Increasing levels of distribution, fragmentation, and fluidity
-	- Emergence of distributed, multi object (often 'non-standard') transient scholarly objects 
+	- Emergence of open, distributed, multi object (often 'non-standard') transient scholarly objects 
 - Multi-object exists elsewhere (e.g. METS package) but all components under direct custodianship where *authority of assertion* exists 
 - PIDs increasingly central to linking, description, disambiguation, discovery 
 
@@ -80,9 +80,9 @@ Disorientation grows for metadata creators with research domain, but also for us
 ## PID = *persistent identification* :wink:
 -  Provides unique and persistent reference to an *entity* normally accessible over the Internet
 - Maintenance of the scholarly record - citability, verification, reproducibility, replicability
-- 'Reference rot' / 'link rot' - e.g [Klein, Van de Sompel et al.](https://scholar.google.com/citations?user=nMRDlR8AAAAJ&hl) [REF]
+	- *'Reference rot' / 'link rot' - e.g [Klein, Van de Sompel et al.](https://scholar.google.com/citations?user=nMRDlR8AAAAJ&hl)* [REF]
 - Uniquely identify entities on the web; enables discovery these entities -- happy times!
-- *Encode PIDs within metadata to link and grow the utility of data*
+- *The quest to encode PIDs within metadata to link and grow the utility of data*
 
 ---
 # PID graph
@@ -176,31 +176,57 @@ Concept of 'authority of assertion' exists but an under-research area; no defini
 # Assertion and 'PID literacy'
 
 - Components of multi-object, non-standard scholarly objects can often be inferred
-- Lack of authority to assert can make statements problematic
+- Lack of authority to assert can make *reliable, verifiable, and true* statements difficult or impossible
 	- Even if we assert a vanilla-flavoured PID, we want to assert the predicate / attribute of that PID, e.g. `IsVersionOf`, `HasPart`, etc.
-	- Repository understanding of relationship necessary
-- Level of authority of assertion exists only as far as scholars' PID literacy!
-Analogy - Cataloguing a book and finding that half the title page is missing...
----
-Lack of authority to assert
-Undermining the multi-part scholarly object
-Undermining end-user discovery and establishment of provenance
-Undermining open research, esp. verification, reproducibility, etc.
-Underming ability of repositories to contribute rich data to the wider scholarly PID graph
+	- Relational understanding is necessary
+
+*Analogy - cataloguing a book and discovering that half the title page is missing...*
 
 ---
+# ...
+All of which leads to a lack of authority to assert:
+- **Undermining** the multi-part scholarly object
+- **Undermining** end-user discovery and establishment of provenance
+- **Undermining** open research, esp. verification, reproducibility, etc.
+- **Undermining** ability of repositories or other scholarly services to contribute meaningful data to the wider scholarly PID graph
+---
+# Er, what the heck is 'PID literacy'?!
+Level of authority of to assert exists only as far as scholars' PID literacy!
+What is a PID literate scholar?
+
 "PID literate scholar might display the following competencies:
 
 1. An understanding of persistent identification in scholarship, when it should be used, and its importance to the scholarly record and the wider PID graph.    
 2. An ability to accurately identify, reproduce, and cite PIDs in scholarship activities.    
 3. Cognizance of adjacent PID types relevant to scholars’ community of practice, such as those devised to identify scholarly “things” other than academic papers." [REF]
 ---
+# Centrality of scholars to making a better scholarly web
 
-# Does PID literacy hold the key?
+Going beyond the academic paper requires a more literate scholar
 
-Reliance on scholars to signpost 
+Going beyond requires scholars to adequately signpost related or adjacent scholarly entities
+
+Advocating; communicating...
+
+---
+# Where art thou, PID literacy?
+Difficulties on open research culture generally
+
+Enthusiasm for PIDs in scholarship; perceived positively
+
 Radical improvement of 'digital scholarship' skills necessary
 Skills deficit notable across all disciplines, though better in some
+Advocating the importance of 
+
+---
+![width:1000px](bmj-box.png)
+
+---
+
+![width:600px](plos-one-box.png)
+
+---
+![width:350px](plos-one-box-snip.png)
 
 ---
 # References
