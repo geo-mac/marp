@@ -251,6 +251,6 @@ infrastructure', *Open Information Science*, vol. 7, no. 1, 2023, available: `ht
 
 [5] H. M. Sandy et al., 'Making a case for open research: implications for reproducibility and transparency', *Proceedings of the Association of Information Science & Technology*, vol. 54, no. 1, pp. 583–586, 2017, available: `https://doi.org/10.1002/pra2.2017.14505401079`
 
-[6] Klein
+[6] S. M. Jones et al., 'Scholarly Context Adrift: Three out of Four URI References Lead to Changed Content', *PLoS ONE* vol. 11, no. 1, p. e0167475, 2021, available: `https://doi.org/10.1371/journal.pone.0167475`
 
-[7] Klein Sompel
+[7] S. M. Jones, M. Klein, and H. Van de Sompel, 'Robustifying Links To Combat Reference Rot', *Code4Lib Journal*, no. 50, 2021, available: `https://journal.code4lib.org/articles/15509` 
