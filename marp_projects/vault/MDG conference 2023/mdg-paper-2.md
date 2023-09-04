@@ -32,7 +32,7 @@ Exploring issues when levels of 'authority of assertion' are lacking or are unce
 - Emergence of persistent identification as a (partial) solution
 - The growing scholarly graph, e.g. 'PID graph'
 - Implications for repositories and the question of 'authority of assertion'
-- Scholars' 'PID literacy' as an impediment to satisfactory scholarly objective description (and ergo discovery)
+- Scholars' 'PID literacy' as an impediment to satisfactory scholarly objective description (and ergo discovery) [1]
 
 
 
@@ -46,7 +46,7 @@ Exploring issues when levels of 'authority of assertion' are lacking or are unce
 - Generating statements of fact about (often) tangible things...
 - Even in formal digital libraries, objects (often) static things with predictable descriptive metadata attributes (e.g. digitized objects, etc)
 	- Linked Open Data (RDF/URIs)
-- "...change is slow" [REF cambrdge book]
+- "...change is slow" [2]
 
 \\\
 
@@ -57,7 +57,7 @@ Exploring issues when levels of 'authority of assertion' are lacking or are unce
 
 ![width:400px](open-schol.png)
 
-Bilder G, Lin J, Neylon C (2020), The Principles of Open Scholarly Infrastructure, https://doi.org/10.24343/C34W2H 
+[3]
 
 ---
 # Distribution, fragmentation, fluidity
@@ -81,14 +81,14 @@ Disorientation grows for metadata creators with research domain, but also for us
 # Why have PIDs?
 ## PID = *persistent identification* :wink:
 -  Provides unique and persistent reference to an *entity* normally accessible over the Internet
-- Maintenance of the scholarly record - citability, verification, reproducibility, replicability
-	- *'Reference rot' / 'link rot' - e.g [Klein, Van de Sompel et al.](https://scholar.google.com/citations?user=nMRDlR8AAAAJ&hl)* [REF]
+- Maintenance of the scholarly record - citability, verification, reproducibility, replicability [5], [6]
+	- *'Reference rot' / 'link rot' - e.g [Klein, Van de Sompel et al.](https://scholar.google.com/citations?user=nMRDlR8AAAAJ&hl)* [6], [7]
 - Uniquely identify entities on the web; enables discovery these entities -- happy times!
 - *The quest to encode PIDs within metadata to link and grow the utility of data*
 
 ---
 # PID graph
-.... or Linked Open Data déjà vu... ?
+.... or Linked Open Data déjà vu... ? [4]
 
 ![width:400px](pid-graph-icon.png)
 
@@ -240,9 +240,17 @@ Advocating the importance of
 ---
 # References
 
-G. Macgregor, B. S. Lancho-Barrantes, and D. R. Pennington, 'Measuring the concept of PID literacy: user perceptions and understanding of PIDs in support of open scholarly
+[1] G. Macgregor, B. S. Lancho-Barrantes, and D. R. Pennington, 'Measuring the concept of PID literacy: user perceptions and understanding of PIDs in support of open scholarly
 infrastructure', *Open Information Science*, vol. 7, no. 1, 2023, available: `https://doi.org/10.1515/opis-2022-0142`
 
-G. Alemu. (2022). 'Resource Description and Access (RDA)'. In *The Future of Enriched, Linked, Open and Filtered Metadata: Making Sense of IFLA LRM, RDA, Linked Data and BIBFRAME* (pp. 197-212). Facet, London, available `https://doi.org/10.29085/9781783304943.010`
+[2] G. Alemu. (2022). 'Resource Description and Access (RDA)'. In *The Future of Enriched, Linked, Open and Filtered Metadata: Making Sense of IFLA LRM, RDA, Linked Data and BIBFRAME* (pp. 197-212). Facet, London, available `https://doi.org/10.29085/9781783304943.010`
 
-H. Cousijn et al., 'Connected Research: The Potential of the PID Graph', *Patterns*, vol. 2, no. 1, p. 100180, 2021, available: `https://doi.org/10.1016/j.patter.2020.100180`
+[3] G. Bilder, J. Lin, and C. Neylon, 'The Principles of Open Scholarly Infrastructure', 2020, available: `https://doi.org/10.24343/C34W2H` 
+
+[4] H. Cousijn et al., 'Connected Research: The Potential of the PID Graph', *Patterns*, vol. 2, no. 1, p. 100180, 2021, available: `https://doi.org/10.1016/j.patter.2020.100180`
+
+[5] H. M. Sandy et al., 'Making a case for open research: implications for reproducibility and transparency', *Proceedings of the Association of Information Science & Technology*, vol. 54, no. 1, pp. 583–586, 2017, available: `https://doi.org/10.1002/pra2.2017.14505401079`
+
+[6] Klein
+
+[7] Klein Sompel
