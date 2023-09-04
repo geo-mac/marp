@@ -204,8 +204,20 @@ What does a PID literate scholar look like?
 # Where art thou, PID literacy?
 - Challenges within the open research culture space generally
 - Open data, data management planning (DMP), etc.
-- [Our research reveals](https://doi.org/10.1515/opis-2022-0142) [1] many scholars demonstrate limited recognition of even common PIDs, e.g. DOIs & ORCIDs
+- [Our research reveals](https://doi.org/10.1515/opis-2022-0142) [1] many scholars (~35%) demonstrate limited recognition of even common PIDs, e.g. DOIs & ORCIDs
 - Even less understanding of how they should be (re)used - widespread confusion
+- Concerning levels of failure recorded by participant scholars with our research instrument
+---
+![width:1000px](bmj-box.png)
+
+---
+
+![width:600px](plos-one-box.png)
+
+---
+![width:350px](plos-one-box-snip.png)
+
+
 
 But:
 
