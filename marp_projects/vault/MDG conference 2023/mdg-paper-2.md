@@ -34,6 +34,7 @@ Exploring issues when levels of 'authority of assertion' are lacking or are unce
 - Implications for repositories and the question of 'authority of assertion'
 - Scholars' 'PID literacy' as an impediment to satisfactory scholarly objective description (and ergo discovery) [1]
 
+Raising a manifesto for action?
 
 
 ---
@@ -48,8 +49,8 @@ Exploring issues when levels of 'authority of assertion' are lacking or are unce
 	- Linked Open Data (RDF/URIs)
 - "...change is slow" [2]
 
-\\\
 
+:satisfied:
 [Photo, previous slide :arrow_heading_up:] [Dresden-Neustadt. Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden, Europeana](https://www.europeana.eu/en/item/437/item_GWKOGR5EYEUJ4CCOGJF5ROU3N5PQJFWE) (CC-BY-SA) 
 
 ---
@@ -112,9 +113,6 @@ RAiD envelope diagram. From Janke et al. [1], CC-BY.
 ![width:980px](swap-example-2023.png)
 
 ---
-![width:1000px](rioxx-example-graph.png)
-
----
 
 # Repositories on front line of PID data contributions
 
@@ -136,13 +134,13 @@ RAiD envelope diagram. From Janke et al. [1], CC-BY.
 
 Concept of 'authority of assertion' exists but an under-research area; no definitions
 
-- *[authority](https://dictionary.cambridge.org/dictionary/english/authority)* = "official permission or the legal right to do something" [Cambridge Dictionary def]
+- **[authority](https://dictionary.cambridge.org/dictionary/english/authority)** = *"official permission or the legal right to do something"*- [Cambridge Dictionary](https://dictionary.cambridge.org/)
 
-- *[assertion](https://dictionary.cambridge.org/dictionary/english/assertion)* = "a statement that you strongly believe is true" [Cambridge Dictionary]
+- **[assertion](https://dictionary.cambridge.org/dictionary/english/assertion)** = *"a statement that you strongly believe is true"* - [Cambridge Dictionary](https://dictionary.cambridge.org/)
 
 **Ergo, could we propose the following:**
 
-*The extent to which there exists a right to make metadata statements about objects and their relations, such that these statements are reliable, verifiable, and true* 
+*"The extent to which there exists a right to make metadata statements about objects and their relations, such that these statements are reliable, verifiable, and true"* 
 
 ---
 # The 'bread crumbs' and authority of assertion
@@ -180,7 +178,7 @@ Concept of 'authority of assertion' exists but an under-research area; no defini
 - Components of multi-object, non-standard scholarly objects can often be inferred (by human & *maybe* machine)
 - Lack of authority to assert can make *reliable, verifiable, and true* statements difficult or impossible
 	- We want to assert the predicate / attribute of that PID, e.g. `IsVersionOf`, `HasPart`, etc.
-	- Relational understanding is necessary
+	- We want relational understanding
 
 *Analogy - cataloguing a book and discovering that half the title page is missing...*
 
@@ -203,10 +201,10 @@ What does a PID literate scholar look like?
 ---
 # Where art thou, PID literacy?
 - Challenges within the open research culture space generally
-- Open data, data management planning (DMP), etc.
+	- e.g. open data, data management planning (DMP), etc.
 - [Our research reveals](https://doi.org/10.1515/opis-2022-0142) [1] many scholars (~35%) demonstrate limited recognition of even common PIDs, e.g. DOIs & ORCIDs
-- Even less understanding of how they should be (re)used - widespread confusion
-- Concerning levels of failure recorded by participant scholars with our research instrument
+	- Even less understanding of how they should be (re)used - widespread confusion
+	- Concerning levels of failure in the PID tests we engaged our participant scholars in
 ---
 ![width:1000px](bmj-box.png)
 
@@ -217,36 +215,36 @@ What does a PID literate scholar look like?
 ---
 ![width:350px](plos-one-box-snip.png)
 
+---
+# ...
+
+But enthusiasm for PIDs in scholarship; they are perceived positively even though many do not know what they are (exactly) or how to use them 
+
+:smiley:
 
 
-But:
-
-- Enthusiasm for PIDs in scholarship; perceived positively
-
-Radical improvement of 'digital scholarship' skills necessary
-Skills deficit notable across all disciplines, though better in some
-Advocating the importance of 
 ---
 # Centrality of scholars to making a better scholarly web
 HELP NOW PLEASE! :anguished:
-- To go beyond the academic paper we will increasingly need help from literate scholars
-- An understanding that their works are increasingly diffuse
-Going beyond requires adequate signposting of related or adjacent scholarly entities
+- To go beyond the academic paper we *need* help from PID literate scholars
+- Radical improvement of 'digital scholarship' skills necessary
+- 'To do' for open research / scholarly communications teams: advocate; communicate; educate
 
-'To do' for open research / scholarly communications teams: advocate; communicate; train.
-
-Better metadata modelling of the new nature of scholarly research objects reflected in [Rioxx v 3.0](https://www.rioxx.net/profiles/v3-0-draft-2/) and [DataCite Schema](https://schema.datacite.org/)
-
+Better metadata modelling of the new nature of scholarly research objects increasingly reflected in schema
+- [Rioxx v 3.0](https://www.rioxx.net/profiles/v3-0-draft-2/) and [DataCite Schema](https://schema.datacite.org/)
 
 ---
-![width:1000px](bmj-box.png)
+![width:1000px](rioxx-example-graph.png)
 
 ---
-
-![width:600px](plos-one-box.png)
+# Conclusion and way forward...
+- Distributed, multi-part scholarly objects are here -- and will only increase
+- Modelling reality and servicing users requires that we describe this complexity in a meaningful way, contributing to the wider scholarly graph of data
+- But improving PID literacy as part of wider 'digital scholarship' engagement essential to guarantee sufficient authority to assert, as well as open research goals
+- Notwithstanding PID illiteracy...
 
 ---
-![width:350px](plos-one-box-snip.png)
+# Questions?
 
 ---
 # References
@@ -257,6 +255,8 @@ infrastructure', *Open Information Science*, vol. 7, no. 1, 2023, available: `ht
 [2] G. Alemu. (2022). 'Resource Description and Access (RDA)'. In *The Future of Enriched, Linked, Open and Filtered Metadata: Making Sense of IFLA LRM, RDA, Linked Data and BIBFRAME* (pp. 197-212). Facet, London, available `https://doi.org/10.29085/9781783304943.010`
 
 [3] G. Bilder, J. Lin, and C. Neylon, 'The Principles of Open Scholarly Infrastructure', 2020, available: `https://doi.org/10.24343/C34W2H` 
+
+---
 
 [4] H. Cousijn et al., 'Connected Research: The Potential of the PID Graph', *Patterns*, vol. 2, no. 1, p. 100180, 2021, available: `https://doi.org/10.1016/j.patter.2020.100180`
 
