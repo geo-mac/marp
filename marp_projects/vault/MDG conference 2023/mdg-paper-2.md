@@ -193,7 +193,7 @@ All of which leads to a lack of authority to assert:
 - **Undermining** ability of repositories or other scholarly services to contribute meaningful data to the wider scholarly PID graph
 ---
 # Er, what the heck is 'PID literacy'?!
-Level of authority of to assert exists only as far as scholars' PID literacy!
+Level of authority to assert exists only as far as scholars' PID literacy!
 What does a PID literate scholar look like?
 
 "PID literate scholar might display the following competencies:
@@ -216,8 +216,8 @@ Going beyond requires adequate signposting of related or adjacent scholarly enti
 # Where art thou, PID literacy?
 - Challenges within the open research culture space generally
 - Open data, data management planning (DMP), etc.
-- Our research reveals many scholars demonstrate limited recognition of even common PIDs, e.g. DOIs & ORCIDs
-- Even less understanding of how they are supposed to be used
+- [Our research reveals](https://doi.org/10.1515/opis-2022-0142) [REF] many scholars demonstrate limited recognition of even common PIDs, e.g. DOIs & ORCIDs
+- Even less understanding of how they should be used - widespread confusion
 
 But:
 
@@ -240,12 +240,9 @@ Advocating the importance of
 ---
 # References
 
-[1] J. Allinson, [‘Describing Scholarly Works with Dublin Core: A Functional Approach’](https://eprints.whiterose.ac.uk/8522/), *Library Trends*, 57 (2), pp. 221–243, 2008. Accessed Jul. 18, 2023. 
+G. Macgregor, B. S. Lancho-Barrantes, and D. R. Pennington, 'Measuring the concept of PID literacy: user perceptions and understanding of PIDs in support of open scholarly
+infrastructure', *Open Information Science*, vol. 7, no. 1, 2023, available: `https://doi.org/10.1515/opis-2022-0142`
 
-[2] E. O’Neill and M. Žumer, ‘FRBR: Application of the Model to Textual Documents’,
-Libr. Resources Tech. Serv., 62 (4), Art. no. 4, Oct. 2018. Available: https:
-//doi.org/10.5860/lrts.62n4.176
+G. Alemu. (2022). 'Resource Description and Access (RDA)'. In *The Future of Enriched, Linked, Open and Filtered Metadata: Making Sense of IFLA LRM, RDA, Linked Data and BIBFRAME* (pp. 197-212). Facet, London, available `https://doi.org/10.29085/9781783304943.010`
 
-[2] P. Knoth and B. Notay, ['UKRI OA policy requirements for repositories and how to meet them'](https://www.slideshare.net/petrknoth/ukri-oa-policy-requirements-for-repositories-and-how-to-meet-them), presented at the *Jisc Workshop, 2021*. Accessed: Jul. 18, 2023.  
-
-[3] P. Knoth, M. Cancellieri, M. Klein, ['Comparing the performance of OAI-PMH with ResourceSync'](https://www.slideshare.net/martinklein0815/comparing-the-performance-of-oaipmh-with-resourcesync), *The 14th International Conference on Open Repositories (OR2019)* June 2019. Universität Hamburg, Hamburg. Accessed: Jul. 18, 2023.
+H. Cousijn et al., 'Connected Research: The Potential of the PID Graph', *Patterns*, vol. 2, no. 1, p. 100180, 2021, available: `https://doi.org/10.1016/j.patter.2020.100180`
