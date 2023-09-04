@@ -24,6 +24,8 @@ Slides available: `https://doi.org/10.17868/strath.00085167`
 ---
 
 # Overview
+This paper: to outline an emerging challenge in repository metadata and users' discovery of repository content 
+
 Exploring issues when levels of 'authority of assertion' are lacking or are uncertain
 
 - Emergence of increasingly fluid, distributed, and fragmented scholarly objects
@@ -31,7 +33,7 @@ Exploring issues when levels of 'authority of assertion' are lacking or are unce
 - The growing scholarly graph, e.g. 'PID graph'
 - Implications for repositories and the question of 'authority of assertion'
 - Scholars' 'PID literacy' as an impediment to satisfactory scholarly objective description (and ergo discovery)
-This paper is to outline an emerging problem -- inadequately acknowledged in the literature or in the community.
+
 
 
 ---
@@ -175,9 +177,9 @@ Concept of 'authority of assertion' exists but an under-research area; no defini
 ---
 # Assertion and 'PID literacy'
 
-- Components of multi-object, non-standard scholarly objects can often be inferred
+- Components of multi-object, non-standard scholarly objects can often be inferred (by human & *maybe* machine)
 - Lack of authority to assert can make *reliable, verifiable, and true* statements difficult or impossible
-	- Even if we assert a vanilla-flavoured PID, we want to assert the predicate / attribute of that PID, e.g. `IsVersionOf`, `HasPart`, etc.
+	- We want to assert the predicate / attribute of that PID, e.g. `IsVersionOf`, `HasPart`, etc.
 	- Relational understanding is necessary
 
 *Analogy - cataloguing a book and discovering that half the title page is missing...*
@@ -192,7 +194,7 @@ All of which leads to a lack of authority to assert:
 ---
 # Er, what the heck is 'PID literacy'?!
 Level of authority of to assert exists only as far as scholars' PID literacy!
-What is a PID literate scholar?
+What does a PID literate scholar look like?
 
 "PID literate scholar might display the following competencies:
 
@@ -202,7 +204,7 @@ What is a PID literate scholar?
 ---
 # Centrality of scholars to making a better scholarly web
 
-To go beyond the academic paper we will increasingly need help from literate scholars. HELP NOW PLEASE!
+To go beyond the academic paper we will increasingly need help from literate scholars. HELP NOW PLEASE! :anguished:
 
 - An understanding that their works are increasingly diffuse
 
@@ -214,7 +216,8 @@ Going beyond requires adequate signposting of related or adjacent scholarly enti
 # Where art thou, PID literacy?
 - Challenges within the open research culture space generally
 - Open data, data management planning (DMP), etc.
-- 
+- Our research reveals many scholars demonstrate limited recognition of even common PIDs, e.g. DOIs & ORCIDs
+- Even less understanding of how they are supposed to be used
 
 But:
 
