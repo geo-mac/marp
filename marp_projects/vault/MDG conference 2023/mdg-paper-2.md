@@ -193,31 +193,19 @@ All of which leads to a lack of authority to assert:
 - **Undermining** ability of repositories or other scholarly services to contribute meaningful data to the wider scholarly PID graph
 ---
 # Er, what the heck is 'PID literacy'?!
-Level of authority to assert exists only as far as scholars' PID literacy!
 What does a PID literate scholar look like?
 
 "PID literate scholar might display the following competencies:
 
 1. An understanding of persistent identification in scholarship, when it should be used, and its importance to the scholarly record and the wider PID graph.    
 2. An ability to accurately identify, reproduce, and cite PIDs in scholarship activities.    
-3. Cognizance of adjacent PID types relevant to scholars’ community of practice, such as those devised to identify scholarly “things” other than academic papers." [REF]
----
-# Centrality of scholars to making a better scholarly web
-
-To go beyond the academic paper we will increasingly need help from literate scholars. HELP NOW PLEASE! :anguished:
-
-- An understanding that their works are increasingly diffuse
-
-Going beyond requires adequate signposting of related or adjacent scholarly entities
-
-'To do' for open research / scholarly communications teams: advocate; communicate; train.
-
+3. Cognizance of adjacent PID types relevant to scholars’ community of practice, such as those devised to identify scholarly 'things' other than academic papers." [1]
 ---
 # Where art thou, PID literacy?
 - Challenges within the open research culture space generally
 - Open data, data management planning (DMP), etc.
-- [Our research reveals](https://doi.org/10.1515/opis-2022-0142) [REF] many scholars demonstrate limited recognition of even common PIDs, e.g. DOIs & ORCIDs
-- Even less understanding of how they should be used - widespread confusion
+- [Our research reveals](https://doi.org/10.1515/opis-2022-0142) [1] many scholars demonstrate limited recognition of even common PIDs, e.g. DOIs & ORCIDs
+- Even less understanding of how they should be (re)used - widespread confusion
 
 But:
 
@@ -226,6 +214,17 @@ But:
 Radical improvement of 'digital scholarship' skills necessary
 Skills deficit notable across all disciplines, though better in some
 Advocating the importance of 
+---
+# Centrality of scholars to making a better scholarly web
+HELP NOW PLEASE! :anguished:
+- To go beyond the academic paper we will increasingly need help from literate scholars
+- An understanding that their works are increasingly diffuse
+Going beyond requires adequate signposting of related or adjacent scholarly entities
+
+'To do' for open research / scholarly communications teams: advocate; communicate; train.
+
+Better metadata modelling of the new nature of scholarly research objects reflected in [Rioxx v 3.0](https://www.rioxx.net/profiles/v3-0-draft-2/) and [DataCite Schema](https://schema.datacite.org/)
+
 
 ---
 ![width:1000px](bmj-box.png)
