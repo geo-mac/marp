@@ -202,17 +202,23 @@ What is a PID literate scholar?
 ---
 # Centrality of scholars to making a better scholarly web
 
-Going beyond the academic paper requires a more literate scholar
+To go beyond the academic paper we will increasingly need help from literate scholars. HELP NOW PLEASE!
 
-Going beyond requires scholars to adequately signpost related or adjacent scholarly entities
+- An understanding that their works are increasingly diffuse
 
-Advocating; communicating...
+Going beyond requires adequate signposting of related or adjacent scholarly entities
+
+'To do' for open research / scholarly communications teams: advocate; communicate; train.
 
 ---
 # Where art thou, PID literacy?
-Difficulties on open research culture generally
+- Challenges within the open research culture space generally
+- Open data, data management planning (DMP), etc.
+- 
 
-Enthusiasm for PIDs in scholarship; perceived positively
+But:
+
+- Enthusiasm for PIDs in scholarship; perceived positively
 
 Radical improvement of 'digital scholarship' skills necessary
 Skills deficit notable across all disciplines, though better in some
